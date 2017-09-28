@@ -17,6 +17,70 @@ Passed W3C validator css w/ no errors: YES
     
     </head>
     <body>
-            <script src="JS2/addContent2.js"></script> <!-- this is invoking javascript -->
+            <script>
+                function squareNumber(num) { 
+    var squareTheNumber = Math.sqrt(num);
+    document.write('The square root of 4 is ' + squareTheNumber + '!');
+    console.log('The square root of 4 is ' + squareTheNumber + '!');
+} 
+    squareNumber(4); //This calls the function above
+
+
+function halfNumber(num) {
+    var halfOfNum = num / 2;
+    document.write('Half of 4 is ' + halfOfNum + '!')
+    console.log('Half of 4 is ' + halfOfNum + '!')
+} 
+    document.write('<br>'); //This calls for a page break
+    halfNumber(4);//This calls the function above
+
+
+function percentOf(num1, num2) {
+    var percentage = (num1 /num2) * 100;
+    document.write(num1 + ' is  ' + percentage + '% of ' + num2);
+    console.log(num1 + ' is  ' + percentage + '% of ' + num2);
+}
+    document.write('<br>'); //This calls for a page break
+    percentOf(10, 100);//This calls the function above
+
+
+function areaOfACircle(num) {
+    var area = num * num * Math.PI;
+    var areaFixed = area.toFixed(2);
+    document.write('The area for a circle with radius 2 is ' + areaFixed + '!');
+    console.log('The area for a circle with radius 2 is ' + areaFixed + '!');
+} 
+    document.write('<br>');//This calls for a page break
+    areaOfACircle(2);//This calls the function above
+
+
+function useMultipleFunctions(num) {
+    var halfOfNum = num / 2;
+    console.log('Half of  ' + num + ' is ' + halfOfNum);
+    document.write('Half of  ' + num + ' is ' + halfOfNum);
+    document.write('<br>');//This calls for a page break
+
+    var squareTheNum = Math.sqrt(halfOfNum);
+    console.log('The square root of ' + halfOfNum + ' is ' + squareTheNum);
+    document.write('The square root of ' + halfOfNum + ' is ' + squareTheNum);
+    document.write('<br>');//This calls for a page break
+
+    var area = squareTheNum * squareTheNum * Math.PI;
+    var areaFixed = area.toFixed(2);
+    console.log('The area for ' + squareTheNum + ' is ' + areaFixed);
+    document.write('The area for ' + squareTheNum + ' is ' + areaFixed);
+    document.write('<br>');// page break
+    
+    var percentage = (areaFixed/squareTheNum) * 100;
+    var percentageFixed = percentage.toFixed(2);
+    console.log(areaFixed + ' is ' + percentageFixed + '% of ' + squareTheNum);
+    document.write(areaFixed + ' is ' + percentageFixed + '% of ' + squareTheNum);
+    
+}
+
+    document.write('<br>');//This calls for a page break
+    document.write('<br>');//This calls for a page break
+    useMultipleFunctions(72); //this calls my function above
+                </script>
     </body>
 </html>
