@@ -12,7 +12,7 @@
 	<h1>Barclay Wallace JQuery Calendar</h1>
 	<p>This is a selection of months.  No more drop down arrows and list. 
 		<br> This layout puts all the months on a screen to select.
-		<br> Please select the month below:</p>
+		<br> Please select the month, date, and year below:</p>
 		
 <div id="my-div-calendar" class="div-class">
 			Please Select Month:
@@ -40,11 +40,67 @@
 	</tr>
 </table>
 		</div>
+		<div id="my-div-date" class="div-class3">
+			Please Select Date:
+			<table style="width:100%">
+	<tr>
+		<th><input type="button" id="1" value='1' onclick="document.getElementById('theinputboxdate').value='1';"></input></th>
+		<th><input type="button" id="2" value='2' onclick="document.getElementById('theinputboxdate').value='2';"></input></th> 
+		<th><input type="button" id="3" value='3' onclick="document.getElementById('theinputboxdate').value='3';"></input></th>
+		<th><input type="button" id="4" value='4' onclick="document.getElementById('theinputboxdate').value='4';"></input></th>
+		<th><input type="button" id="5" value='5' onclick="document.getElementById('theinputboxdate').value='5';"></input></th>
+		<th><input type="button" id="6" value='6' onclick="document.getElementById('theinputboxdate').value='6';"></input></th>
+		<th><input type="button" id="7" value='7' onclick="document.getElementById('theinputboxdate').value='7';"></input></th>
+		<th><input type="button" id="8" value='8' onclick="document.getElementById('theinputboxdate').value='8';"></input></th>
+	</tr>
+
+	<tr>
+		<th><input type="button" id="9" value='9' onclick="document.getElementById('theinputboxdate').value='9';"></input></th>
+		<th><input type="button" id="10" value='10' onclick="document.getElementById('theinputboxdate').value='10';"></input></th>
+		<th><input type="button" id="11" value='11' onclick="document.getElementById('theinputboxdate').value='11';"></input></th>
+		<th><input type="button" id="12" value='12' onclick="document.getElementById('theinputboxdate').value='12';"></input></th>
+		<th><input type="button" id="13" value='13' onclick="document.getElementById('theinputboxdate').value='13';"></input></th>
+		<th><input type="button" id="14" value='14' onclick="document.getElementById('theinputboxdate').value='14';"></input></th>
+		<th><input type="button" id="15" value='15' onclick="document.getElementById('theinputboxdate').value='15';"></input></th>
+		<th><input type="button" id="16" value='16' onclick="document.getElementById('theinputboxdate').value='16';"></input></th>
+	</tr>
+	<tr>
+		<th><input type="button" id="17" value='17' onclick="document.getElementById('theinputboxdate').value='17';"></input></th>
+		<th><input type="button" id="18" value='18' onclick="document.getElementById('theinputboxdate').value='18';"></input></th>
+		<th><input type="button" id="19" value='19' onclick="document.getElementById('theinputboxdate').value='19';"></input></th>
+		<th><input type="button" id="20" value='20' onclick="document.getElementById('theinputboxdate').value='20';"></input></th>
+		<th><input type="button" id="21" value='21' onclick="document.getElementById('theinputboxdate').value='21';"></input></th>
+		<th><input type="button" id="22" value='22' onclick="document.getElementById('theinputboxdate').value='22';"></input></th>
+		<th><input type="button" id="23" value='23' onclick="document.getElementById('theinputboxdate').value='23';"></input></th>
+		<th><input type="button" id="24" value='24' onclick="document.getElementById('theinputboxdate').value='24';"></input></th>
+	</tr>
+	<tr>
+		<th><input type="button" id="25" value='25' onclick="document.getElementById('theinputboxdate').value='25';"></input></th>
+		<th><input type="button" id="26" value='26' onclick="document.getElementById('theinputboxdate').value='26';"></input></th>
+		<th><input type="button" id="27" value='27' onclick="document.getElementById('theinputboxdate').value='27';"></input></th>
+		<th><input type="button" id="28" value='28' onclick="document.getElementById('theinputboxdate').value='28';"></input></th>
+		<th><input type="button" id="29" value='29' onclick="document.getElementById('theinputboxdate').value='29';"></input></th>
+		<th><input type="button" id="30" value='30' onclick="document.getElementById('theinputboxdate').value='30';"></input></th>
+		<th><input type="button" id="31" value='31' onclick="document.getElementById('theinputboxdate').value='31';"></input></th>
+	</tr>
+		</table>
+			</div>
+
+			<div id="my-div-year" class="div-class4">
+				Please Select Year:
+				</div>
 			
-<div id="my-div-variable" class="div-class2">
-	Value from Calender:
-	<input type="text" id="theinputbox" value="" size=10>
-</div>
+
+				<div id="my-div-variable" class="div-class2">
+					You have chose the month:
+					<input type="text" id="theinputbox" value="" size=10>
+					<br> You have chose the date:
+					<input type="text" id="theinputboxdate" value="" size=10>
+					<br> You have chose the year:
+					<input type="text" id="theinputboxyear" value="" size=10>
+						</div>
+
+
 
 </body>
 
