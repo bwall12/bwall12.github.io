@@ -1,0 +1,42 @@
+body {
+    background-image: url("http://www.webdesignhot.com/wp-content/uploads/2015/08/Colorful-Low-Poly-Abstract-Background-Vector-Illustration_thumb.jpg");
+}
+
+h1 {
+	color: #cdff1a;
+	font-weight: bold;
+}
+
+p {
+	color: #fffb1a;
+	font-weight: bold;
+}
+.div-class{
+	height: 500px;
+	width: 650px;
+	background-color: lightgrey;
+	top: 22%;
+	left: 1%;
+	position: fixed;
+}
+
+.div-class2{
+	height: 500px;
+	width: 650px;
+	background-color: lightgrey;
+	top: 22%;
+	right: 1%;
+	position: fixed;
+}
+
+.my-border {
+	border: solid 1px #000;
+	
+}
+table, th, td {
+    border: 1px solid black;
+	
+}
+th, td {
+    padding: 45px;
+}

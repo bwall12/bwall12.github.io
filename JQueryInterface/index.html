@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Barclay Wallace JQuery Assignment</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="Styles/my-Styles.css">
+</head>
+
+<body>
+	<h1>Barclay Wallace JQuery Calendar</h1>
+	<p>This is a selection of months.  No more drop down arrows and list. 
+		<br> This layout puts all the months on a screen to select.
+		<br> Please select the month below:</p>
+		
+<div id="my-div-calendar" class="div-class">
+			Please Select Month:
+			<table style="width:100%">
+	<tr>
+		<th><input type="button" id="January" value='January' onclick="document.getElementById('theinputbox').value='January';"></input></th>
+		<th><input type="button" id="February" value='February' onclick="document.getElementById('theinputbox').value='February';"></input></th> 
+		<th><input type="button" id="March" value='March' onclick="document.getElementById('theinputbox').value='March';"></input></th>
+	</tr>
+
+	<tr>
+		<th><input type="button" id="April" value='April' onclick="document.getElementById('theinputbox').value='April';"></input></th>
+		<th><input type="button" id="May" value='May' onclick="document.getElementById('theinputbox').value='May';"></input></th>
+		<th><input type="button" id="June" value='June' onclick="document.getElementById('theinputbox').value='June';"></input></th>
+	</tr>
+	<tr>
+		<th><input type="button" id="July" value='July' onclick="document.getElementById('theinputbox').value='July';"></input></th>
+		<th><input type="button" id="August" value='August' onclick="document.getElementById('theinputbox').value='August';"></input></th>
+		<th><input type="button" id="September" value='September' onclick="document.getElementById('theinputbox').value='September';"></input></th>
+	</tr>
+	<tr>
+		<th><input type="button" id="October" value='October' onclick="document.getElementById('theinputbox').value='October';"></input></th>
+		<th><input type="button" id="November" value='November' onclick="document.getElementById('theinputbox').value='November';"></input></th>
+		<th><input type="button" id="December" value='December' onclick="document.getElementById('theinputbox').value='December';"></input></th>
+	</tr>
+</table>
+		</div>
+			
+<div id="my-div-variable" class="div-class2">
+	Value from Calender:
+	<input type="text" id="theinputbox" value="" size=10>
+</div>
+
+</body>
+
+	<script
+			  src="http://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+
+	<script src="scripts/my-script.js"></script>
+
+</html>
