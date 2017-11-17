@@ -1,4 +1,14 @@
 /* The Modal (background) */
+.icon {
+    width:30px; 
+    height:30px;
+}
+.txt {
+    padding:-10px 0 0 10px;
+    background:red; 
+    font-size:xx-small;
+}
+
 body {
     counter-reset: section;
     background-image: url("http://www.hdfxcreative.com/wp-content/uploads/2015/07/Shaq.jpg");
